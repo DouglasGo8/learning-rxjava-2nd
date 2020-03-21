@@ -5,44 +5,93 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.packtpub.rxjava</groupId>
+
     <artifactId>learning-rxjava-2nd</artifactId>
+
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
+
     <name>Packtpub :: Learning RxJava 2nd</name>
 
     <properties>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     </properties>
 
     <dependencies>
+
+        <!-- RxJava -->
+
         <dependency>
+
+            <groupId>io.reactivex.rxjava3</groupId>
+
+            <artifactId>rxjava</artifactId>
+
+            <version>3.0.1</version>
+
+        </dependency>
+
+        <!-- Misc -->
+
+        <dependency>
+
             <groupId>org.projectlombok</groupId>
+
             <artifactId>lombok</artifactId>
+
             <version>1.18.12</version>
+
             <scope>provided</scope>
+
         </dependency>
+
         <dependency>
+
             <groupId>junit</groupId>
+
             <artifactId>junit</artifactId>
+
             <version>4.12</version>
+
         </dependency>
+
     </dependencies>
 
     <build>
+
         <plugins>
+
             <plugin>
+
                 <groupId>org.apache.maven.plugins</groupId>
+
                 <artifactId>maven-compiler-plugin</artifactId>
+
                 <version>3.8.1</version>
+
                 <configuration>
+
                     <release>11</release>
+
                 </configuration>
+
             </plugin>
+
         </plugins>
+
     </build>
 
     <modules>
+
         <module>utils</module>
+
+        <module>thinking-reactively</module>
+
+        <module>observable-observer</module>
+
     </modules>
+
 </project>

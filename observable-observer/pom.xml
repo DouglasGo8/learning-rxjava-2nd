@@ -8,13 +8,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <packaging>jar</packaging>
-
-    <groupId>com.packtpub.rxjava.utils</groupId>
-    <artifactId>utils</artifactId>
+    <groupId>com.packtpub.rxjava.observable.observer</groupId>
+    <artifactId>observable-observer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Packtpub :: Learning RxJava 2nd :: Utils</name>
-
+    <name>Packtpub :: Learning RxJava 2nd :: Observable and Observer</name>
 
 </project>
